@@ -8,6 +8,7 @@ from programs.utilities.calculator import calculator
 from programs.misc.hello import hello
 from programs.games.rpg import rpg
 from programs.games.quizGame import quizGame
+from programs.games.test import test
 
 #Catagories for programs:
 catagories = ["Miscellaneous",
@@ -19,7 +20,7 @@ misc = [hello]
 
 utilities = [calculator]
 
-games = [rpg, quizGame]
+games = [rpg, quizGame, test]
 
 def main():
     while (True):
